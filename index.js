@@ -63,6 +63,7 @@ new Docute({
       title: "Deployment Guide",
       children: [
         { title: "Docker", link: "/deploy/Docker" },
+        { title: "Heroku", link: "/deploy/heroku" },
         { title: "Manual Deployment", link: "/deploy/manual-deployment" },
       ],
     },
@@ -88,7 +89,7 @@ new Docute({
         {
           title: "使用指南",
           children: [
-            { title: "介绍", link: "/zh" },
+            { title: "介绍", link: "/zh/" },
             { title: "使用方式", link: "/zh/guide/usage" },
             { title: "配置项", link: "/zh/guide/configurations" },
           ],
@@ -97,6 +98,7 @@ new Docute({
           title: "部署指南",
           children: [
             { title: "Docker", link: "/zh/deploy/Docker" },
+            { title: "Heroku", link: "/zh/deploy/heroku" },
             { title: "手动部署", link: "/zh/deploy/manual-deployment" },
           ],
         },

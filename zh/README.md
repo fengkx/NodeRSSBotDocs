@@ -5,6 +5,12 @@
 [![Docker pulls](https://badgen.net/docker/pulls/fengkx/node_rssbot)](https://hub.docker.com/repository/docker/fengkx/node_rssbot)
 [![Docker image size](https://badgen.net/docker/size/fengkx/node_rssbot/latest/amd64)](https://hub.docker.com/repository/docker/fengkx/node_rssbot)
 
+<p>
+<a href="https://www.heroku.com/deploy?template=https://github.com/fengkx/NodeRSSBot/tree/master">
+  <img width=180 src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+</p>
+
 又是一个 telegram RSS Bot 不过这次用的是 Node.js
 
 ## Hightlights

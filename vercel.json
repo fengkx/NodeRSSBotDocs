@@ -1,6 +1,7 @@
 {
   "routes": [
     { "src": "/", "dest": "/" },
+    { "src": "/zh", "status": 308, "headers": { "Location": "/zh/" } },
     { "src": "(.*)/index.js", "dest": "/index.js" },
     { "src": "/(.*).md", "dest": "/$1.md" },
     { "src": "/(.*)", "dest": "/" }
