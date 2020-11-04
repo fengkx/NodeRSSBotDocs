@@ -11,41 +11,6 @@ const ConfigItem = Vue.component("ConfigItem", {
                 <p style="line-height:1.5"><slot></slot></p>
             </p>
         </div>
-        <v-style>
-        .config-item {
-            display: block;
-            border-radius: 4px;
-            border: 1px solid #ebeef5;
-            overflow: hidden;
-            transition: .3s;
-            position: relative;
-            max-width: 100%;
-        }
-        .config-item-setting {
-            display: flex;
-            align-items: center;
-        }
-        .config-item-setting > .badge {
-            margin-left: 8px;
-        }
-        .config-item-header {
-            background-color: transparent;
-            align-items: stretch;
-            box-shadow: 0 0.125em 0.25em rgba(10,10,10,.1);
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .config-item-header > p {
-            margin: 15px 20px;
-            white-space: pre;
-        }
-        .config-item-desc {
-            min-height: 4em;
-            padding: 1rem 1.5rem;
-            line-height: 1.25;
-        }
-        </v-style>
     </div>
     `,
   props: ["setting", "env", "required", "description", "defaultValue", "lang"],

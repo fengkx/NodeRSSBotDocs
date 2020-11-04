@@ -12,6 +12,47 @@
       href="https://cdn.jsdelivr.net/npm/docute@4.23.3/dist/docute.css"
     />
     <style>
+      .config-item {
+        display: block;
+        border-radius: 4px;
+        border: 1px solid #ebeef5;
+        overflow: hidden;
+        transition: 0.3s;
+        position: relative;
+        max-width: 100%;
+      }
+      .config-item-setting {
+        display: flex;
+        align-items: center;
+      }
+      .config-item-setting > .badge {
+        margin-left: 8px;
+      }
+      .config-item-header {
+        background-color: transparent;
+        align-items: stretch;
+        box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.1),
+          0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        display: flex;
+        justify-content: space-between;
+      }
+      .config-item-header > p {
+        margin: 15px 20px;
+        white-space: pre;
+      }
+      @media (max-width: 640px) {
+        .config-item-header > p {
+          margin: 12px 16px 20px;
+        }
+        .config-item-header {
+          flex-direction: column;
+        }
+      }
+      .config-item-desc {
+        min-height: 4em;
+        padding: 1rem 1.5rem;
+        line-height: 1.25;
+      }
       .config-item:not(:last-of-type) {
         margin-bottom: 1.5rem;
       }
