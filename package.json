@@ -1,0 +1,32 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "NodeRSSBot document",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx prettier --check index.* **/*.{md,json}",
+    "format": "npx prettier --write index.* **/*.{md,json}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeRSSBot/site.git"
+  },
+  "author": "fengkx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NodeRSSBot/site/issues"
+  },
+  "homepage": "https://github.com/NodeRSSBot/site#readme",
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "presite": "^2.0.1",
+    "prettier": "^2.1.2",
+    "puppeteer": "^5.4.1"
+  }
+}
