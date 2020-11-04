@@ -42,5 +42,3 @@ Once you got a [telegram bot token](https://core.telegram.org/bots#3-how-do-i-cr
 ```sh
 docker run --name rssbot -d -v <directory to store database file>:/app/data/ -e RSSBOT_TOKEN=<YOUR_TGBOT_TOKEN> fengkx/node_rssbot
 ```
-
-For more information on deployment and usage, configuration items, see the [Wiki](https://github.com/fengkx/NodeRSSBot/wiki)
