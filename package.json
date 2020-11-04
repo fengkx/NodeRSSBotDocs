@@ -4,6 +4,7 @@
   "description": "NodeRSSBot document",
   "main": "index.js",
   "scripts": {
+    "build": "echo 'no need to build'",
     "lint": "npx prettier --check index.* **/*.{md,json}",
     "format": "npx prettier --write index.* **/*.{md,json}",
     "test": "echo \"Error: no test specified\" && exit 1"
