@@ -73,7 +73,8 @@ new Docute({
       language: "English", // Used by the language dropdown menu in the sidebar
     },
     "/zh/": {
-      language: "Chinese",
+      language: "简体中文",
+      editLinkText: "在 GitHub 上编辑此页",
       nva: [
         {
           title: "首页",
