@@ -17,7 +17,7 @@
 ## db_path
 
 <ConfigItem setting="db_path" env="RSSBOT_DB_PATH" defaultValue="data/database.db" lang="zh">
-    数据库文件路径
+    SQLite 数据库文件路径或者其他 `C/S DBMS`的 Connection String
 </ConfigItem>
 
 ## lang

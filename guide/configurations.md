@@ -17,7 +17,7 @@
 ## db_path
 
 <ConfigItem setting="db_path" env="RSSBOT_DB_PATH" defaultValue="data/database.db">
-    path to store database file
+    path to store sqlite db file or connection string of other c/s dbms
 </ConfigItem>
 
 ## lang
