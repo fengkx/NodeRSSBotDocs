@@ -30,6 +30,8 @@ new Docute({
   router: {
     mode: "history",
   },
+  logo:
+    '<a style="display:flex;" href="/"><img style="margin-right:.5em;" src="https://cdn.jsdelivr.net/npm/noderssbot-logo@0.0.2/pngs/logox32.png" alt="NodeRSSBot logo">NodeRSSBot</a>',
   sourcePath: "/",
   detectSystemDarkTheme: true,
   darkThemeToggler: true,
@@ -48,6 +50,14 @@ new Docute({
     {
       title: "GitHub",
       link: "https://github.com/fengkx/NodeRSSBot",
+    },
+    {
+      title: "Channel",
+      link: "https://t.me/NodeRSSBotStatus",
+    },
+    {
+      title: "Public Demo",
+      link: "https://t.me/NodeRSS_bot",
     },
   ],
   sidebar: [
@@ -83,6 +93,10 @@ new Docute({
         {
           title: "GitHub",
           link: "https://github.com/fengkx/NodeRSSBot",
+        },
+        {
+          title: "频道",
+          link: "https://t.me/NodeRSSBotStatus",
         },
       ],
       // Override the default sidebar
