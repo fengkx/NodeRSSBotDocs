@@ -98,6 +98,10 @@ new Docute({
           title: "频道",
           link: "https://t.me/NodeRSSBotStatus",
         },
+        {
+          title: "公共 Demo",
+          link: "https://t.me/NodeRSS_bot",
+        },
       ],
       // Override the default sidebar
       sidebar: [
