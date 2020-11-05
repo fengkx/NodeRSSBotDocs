@@ -85,7 +85,7 @@ new Docute({
     "/zh/": {
       language: "简体中文",
       editLinkText: "在 GitHub 上编辑此页",
-      nva: [
+      nav: [
         {
           title: "首页",
           link: "/zh/",
