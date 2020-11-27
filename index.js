@@ -38,9 +38,10 @@ new Docute({
   editLinkBase: "https://github.com/NodeRSSBot/site/blob/master",
   components: { ConfigItem },
   footer: `
-  <div style="border-top:1px solid var(--border-color);padding-top:30px;margin: 40px 0;color:#999999;font-size: .9rem;">
-  &copy; ${new Date().getFullYear()} Developed by <a href="https://gihub.com/fengkx" rel="noreferrer noopener" target="_blank">fengkx</a>. Released under MIT license.
+  <div style="border-top:1px solid var(--border-color);padding-top:30px;color:#999999;font-size: .9rem;">
+  &copy; ${new Date().getFullYear()} Developed by&nbsp;<a href="https://gihub.com/fengkx" rel="noreferrer noopener" target="_blank">fengkx</a>. Released under MIT license.
   </div>
+  <div style="color: rgb(153, 153, 153);display: flex;font-size: 0.9rem;align-items: center;vertical-align: middle;white-space: pre;">This site is powered by <a style="display:flex;align-items:center" href="https://vercel.com?utm_source=NodeRSSBot&utm_campaign=oss" target="_blank" rel="noreferrer noopener">Vercel&nbsp;<svg width="16" height="16" viewBox="0 0 116 100" fill="#000" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M57.5 0L115 100H0L57.5 0z"/></svg></a></div>
   `,
   nav: [
     {
