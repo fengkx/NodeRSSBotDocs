@@ -16,7 +16,7 @@
 ## Hightlights
 
 1. OPML 文件导入导出
-1. [丰富的可配置项](https://github.com/fengkx/NodeRSSBot/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3)
+1. [丰富的可配置项](guide/configurations)
 1. 命令支持按键翻页
 1. 自动从网页中读取 feed url (从 type 类似这样的 link 标签中读取 `type="application/atom+xml"`)
 1. I18N
