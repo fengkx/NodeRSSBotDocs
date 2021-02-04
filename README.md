@@ -15,7 +15,7 @@ Another telegram RSSBot in Node.js. But this time in Node.js.
 ## Hightlights
 
 1. Import and export an opml file
-1. [Various configuration](https://github.com/fengkx/NodeRSSBot/wiki/English-Document)
+1. [Various configuration](https://rssbot.vercel.app/guide/configurations)
 1. Pagination on command that list feeds
 1. Automaticlly extract feed from page (from link tag with type such as `type="application/atom+xml"`)
 1. I18N
