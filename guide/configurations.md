@@ -39,6 +39,13 @@
     <code>m</code> for minute, <code>h</code> for hour for example, <code>5m</code> means every 5 minutes, <code>1h</code> means every 1 hour.
 </ConfigItem>
 
+## strict_ttl
+
+<ConfigItem setting="strict_ttl" env="RSSBOT_STRICT_TTL" defaultValue="true">
+    whether treat RSS ttl value in RSS seriously. It will fallback to <code>fetch_gap</code>, if there is not ttl value.
+</ConfigItem>
+
+
 ## notify_error_count
 
 <ConfigItem setting="notify_error_count" env="NOTIFY_ERR_COUNT" defaultValue="5">
