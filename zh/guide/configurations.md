@@ -39,6 +39,12 @@
     <code>m</code> 表示分钟， <code>h</code> 表示小时。例如 <code>5m</code> 表示每 5 分钟, <code>1h</code> 表示每 1 小时
 </ConfigItem>
 
+## strict_ttl
+
+<ConfigItem setting="strict_ttl" env="RSSBOT_STRICT_TTL" defaultValue="true">
+    是否严格执行 RSS 中的 ttl 值。 如果 RSS 中没有 ttl 值则使用 <code>fetch_gap</code> 不改变原有行为
+</ConfigItem>
+
 ## notify_error_count
 
 <ConfigItem setting="notify_error_count" env="NOTIFY_ERR_COUNT" defaultValue="5" lang="zh">
