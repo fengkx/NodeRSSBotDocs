@@ -45,6 +45,11 @@
     whether treat RSS ttl value in RSS seriously. It will fallback to <code>fetch_gap</code>, if there is not ttl value.
 </ConfigItem>
 
+## http_cache
+
+<ConfigItem setting="http_cache" env="RSSBOT_HTTP_CACHE" defaultValue="true">
+    whether enable HTTP Cache
+</ConfigItem>
 
 ## notify_error_count
 

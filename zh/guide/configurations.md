@@ -45,6 +45,12 @@
     是否严格执行 RSS 中的 ttl 值。 如果 RSS 中没有 ttl 值则使用 <code>fetch_gap</code> 不改变原有行为
 </ConfigItem>
 
+## http_cache
+
+<ConfigItem setting="http_cache" env="RSSBOT_HTTP_CACHE" defaultValue="true">
+    是否开启 HTTP Cache
+</ConfigItem>
+
 ## notify_error_count
 
 <ConfigItem setting="notify_error_count" env="NOTIFY_ERR_COUNT" defaultValue="5" lang="zh">
