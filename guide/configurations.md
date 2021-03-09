@@ -47,7 +47,7 @@
 
 ## http_cache
 
-<ConfigItem setting="http_cache" env="RSSBOT_HTTP_CACHE" defaultValue="true">
+<ConfigItem setting="http_cache" env="RSSBOT_HTTP_CACHE" defaultValue="false">
     whether enable HTTP Cache
 </ConfigItem>
 
