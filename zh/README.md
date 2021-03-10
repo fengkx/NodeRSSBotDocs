@@ -15,6 +15,7 @@
 
 ## Hightlights
 
+1. [HTTP Caching](https://tools.ietf.org/html/rfc7234#section-4.3.1)
 1. OPML 文件导入导出
 1. [丰富的可配置项](guide/configurations)
 1. 命令支持按键翻页
