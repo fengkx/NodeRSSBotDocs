@@ -11,3 +11,13 @@
 ## Restrictions and Data Persistence in Heroku
 
 The file system that comes with the Heroku dynos is reset on each reboot, so the database need to be persisted via [Heroku Postgres](https://devcenter.heroku.com/articles/heroku-postgresql), Its [Free Plan](https://elements.heroku.com/addons/heroku-postgresql) has a limit of 10,000 lines, which is generally sufficient for a single user. Also, since RSSBot uses [Worker Dynos](https://devcenter.heroku.com/articles/background-jobs-queueing), you should be aware of the limitation of [free-dyno-hours](https://devcenter.heroku.com/articles/free-dyno-hours). It is recommended to verify a credit card to get more than 30 days of free hours.
+
+## Troubleshooting
+
+1. Web process failed to bind to \$PORT ...
+
+There is no web process in bot. Just turn it off in the web UI of heroku.
+
+1. Worker Process hang on or it cannot connect to database
+
+[fengkx/NodeRSSBot#363](https://github.com/fengkx/NodeRSSBot/issues/363)
