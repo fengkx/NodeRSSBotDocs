@@ -18,6 +18,6 @@ Heroku dyno 中自带的文件系统会在每次重启时重置，所以 Bot 的
 
 Bot 没有 web process 直接在 heroku web UI 关掉就行。
 
-1. Worker Process hang on or it cannot connect to database
+2. Worker Process hang on or it cannot connect to database
 
 [fengkx/NodeRSSBot#363](https://github.com/fengkx/NodeRSSBot/issues/363)

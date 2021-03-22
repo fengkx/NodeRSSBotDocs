@@ -18,6 +18,6 @@ The file system that comes with the Heroku dynos is reset on each reboot, so the
 
 There is no web process in bot. Just turn it off in the web UI of heroku.
 
-1. Worker Process hang on or it cannot connect to database
+2. Worker Process hang on or it cannot connect to database
 
 [fengkx/NodeRSSBot#363](https://github.com/fengkx/NodeRSSBot/issues/363)
