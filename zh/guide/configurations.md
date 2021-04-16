@@ -93,10 +93,16 @@
     proxy port
 </ConfigItem>
 
-## resptimeout
+## resp_timeout
 
-<ConfigItem setting="resptimeout" env="RSSBOT_RESP_TIMEOUT" defaultValue="40(s)" lang="zh">
-    请求超时时间
+<ConfigItem setting="resp_timeout" env="RSSBOT_RESP_TIMEOUT" defaultValue="40(s)" lang="zh">
+    请求超时时间 <a href="https://www.npmjs.com/package/got#timeout" target="_blank" rel="noreferrer">response timeout</a>
+</ConfigItem>
+
+## before_resp_timeout
+
+<ConfigItem setting="before_resp_timeout" env="RSSBOT_BEFORE_RESP_TIMEOUT" defaultValue="3(s)" lang="zh">
+    请求相应前的超时时间
 </ConfigItem>
 
 ## allow_list
