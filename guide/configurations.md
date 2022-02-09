@@ -99,12 +99,6 @@
     request response timeout. <a href="https://www.npmjs.com/package/got#timeout" target="_blank" rel="noreferrer" >resp timeout</a>
 </ConfigItem>
 
-## before_resp_timeout
-
-<ConfigItem setting="before_resp_timeout" env="RSSBOT_BEFORE_RESP_TIMEOUT" defaultValue="3(s)">
-    request request timeout before response
-</ConfigItem>
-
 ## allow_list
 
 <ConfigItem setting="allow_list" env="RSSBOT_ALLOW_LIST" defaultValue="null">
