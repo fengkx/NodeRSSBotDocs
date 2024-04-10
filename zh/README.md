@@ -34,7 +34,7 @@
 /viewall   - 查看所有订阅和订阅人数 需要在设置中打开
 /import    - 回复此消息 opml 文件导入订阅(群组)
 /lang      - 更改语言
-/heath      - 展示活跃订阅源的健康程度
+/health      - 展示活跃订阅源的健康程度
 ```
 
 ## Deploy with docker
