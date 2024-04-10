@@ -34,7 +34,7 @@ Another telegram RSSBot in Node.js. But this time in Node.js.
 /viewall   - view all subscriptions and number of subscribers need to enable in settings
 /import    - reply this message a opml file to import(in group)
 /lang      - change language
-/heath     - show the heath of actively subscribed feed
+/health     - show the heath of actively subscribed feed
 ```
 
 ## Deploy with docker
